@@ -105,7 +105,7 @@ class SecondPage(tk.Frame):
                                width=15, height=2, font=("Arial", 14))
         btn_theory.pack(pady=10)
 
-        btn_quiz = tk.Button(button_frame, text="Практика",
+        btn_quiz = tk.Button(button_frame, text="Тест",
                              command=lambda: controller.show_frame("QuizPage"),
                              width=15, height=2, font=("Arial", 14))
         btn_quiz.pack(pady=10)
